@@ -12,7 +12,7 @@ function initializeApp(data) {
     var uid = data.context.userId ;
     //var x = document.createElement("IFRAME");
     var x = document.getElementById("myFrame");
-    var url = "https://script.google.com/macros/s/AKfycbw6_3wi4WHujpmNTScXz9hOuXN5Im72x5HTTuF75dfiSxzpqu0/exec" +"?lineid="+uid ;
+    var url = "https://script.google.com/macros/s/<<APPID>>/exec" +"?lineid="+uid ;
     x.setAttribute("src", url);
     document.body.appendChild(x);
   
